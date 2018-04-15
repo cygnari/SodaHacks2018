@@ -11,19 +11,7 @@ using namespace gameplay;
 class ARMarioKart: public Game
 {
 public:
-  form MainMenu {
-    position = 0, 0
-    autoWidth = true
-    autoHeight = true
 
-    container { }
-    label { }
-    textBox { }
-    button { }
-    checkBox { }
-    radioButton { }
-    slider { }
-  }
     /**
      * Constructor.
      */

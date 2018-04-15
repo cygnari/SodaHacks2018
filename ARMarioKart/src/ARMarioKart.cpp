@@ -45,7 +45,7 @@ void ARMarioKart::render(float elapsedTime)
 bool ARMarioKart::drawScene(Node* node)
 {
     // If the node visited contains a drawable object, draw it
-    Drawable* drawable = node->getDrawable(); 
+    Drawable* drawable = node->getDrawable();
     if (drawable)
         drawable->draw(_wireframe);
 
@@ -78,3 +78,17 @@ void ARMarioKart::touchEvent(Touch::TouchEvent evt, int x, int y, unsigned int c
         break;
     };
 }
+
+public:
+  form MainMenu {
+    position = 0, 0
+    autoWidth = true
+    autoHeight = true
+
+    container { }
+    label { }
+    textBox { }
+    button { }
+    checkBox { }
+    radioButton { }
+    slider { }
