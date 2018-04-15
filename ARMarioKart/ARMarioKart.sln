@@ -1,14 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARMarioKart", "Assembly-CSharp.csproj", "{03D459E8-0E19-C31A-96FF-2F53E63216FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{03D459E8-0E19-C31A-96FF-2F53E63216FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D459E8-0E19-C31A-96FF-2F53E63216FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D459E8-0E19-C31A-96FF-2F53E63216FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D459E8-0E19-C31A-96FF-2F53E63216FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
