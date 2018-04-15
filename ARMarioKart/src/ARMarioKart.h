@@ -1,5 +1,5 @@
-#ifndef AR Mario Kart_H_
-#define AR Mario Kart_H_
+#ifndef ARMarioKart_H_
+#define ARMarioKart_H_
 
 #include "gameplay.h"
 
@@ -8,26 +8,20 @@ using namespace gameplay;
 /**
  * Main game class.
  */
-class AR Mario Kart: public Game
+class ARMarioKart: public Game
 {
 public:
 
-  form Main_Menu {
-    position = 0, 0;
-    autoWidth = true;
-    autoHeight = true;
-
-  }
     /**
      * Constructor.
      */
-    AR Mario Kart();
+    ARMarioKart();
 
     /**
      * @see Game::keyEvent
      */
 	void keyEvent(Keyboard::KeyEvent evt, int key);
-
+	
     /**
      * @see Game::touchEvent
      */
